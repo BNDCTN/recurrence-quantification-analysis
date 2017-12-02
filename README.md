@@ -3,3 +3,5 @@ Recurrence quantification analysis (RQA) is a method of nonlinear data analysis 
 
 I used NCalc to get expression from string:
 https://github.com/sheetsync/NCalc
+
+Install - Newtonsoft.Json
