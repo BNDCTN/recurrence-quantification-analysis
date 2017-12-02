@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Model.Audio">
+    <Position X="20" Y="5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Model.CutSquare" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Model.DiagramManager" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.25" Width="3" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Model.EventCutFace">
+    <Position X="20" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Model.RectTransformEvent">
+    <Position X="21.75" Y="7.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Model.ChartExtention">
+    <Position X="22.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Model.ImageExtention">
+    <Position X="24.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Model.MenuRenderer">
+    <Position X="21.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Model.Project">
+    <Position X="21.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Model.TimeRow" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="4.25" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NCalc.Numbers" Collapsed="true">
+    <Position X="17.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RD.InfoForm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAEIAABACAAAQCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfoForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RD.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="11" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>2tDzCmIEAmpA5xw1O1PWYgsHJbYKAJmBvlLldxYCoAE=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RD.MessageService" BaseTypeListCollapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAggAAAAAAAAAAQAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RD.Presenter" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEQCIAYAQkgCEgAAAKcgiAAQwGgAAAAAESAgAgAggAE=</HashCode>
+      <FileName>Presenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Model.IDiagramManager">
+    <Position X="5.5" Y="1.25" Width="3" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Model.ITimeRow">
+    <Position X="12" Y="4.25" Width="2.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RD.IInfoForm" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfoForm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RD.IMainWindow" Collapsed="true">
+    <Position X="12" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QhBxAkIEAAAAQwQhGVJCAAAABYAKABiAKEBABhAAAAE=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RD.IMessageService">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAggAAAAAAAAAAQAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Model.Curs" Collapsed="true">
+    <Position X="18.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Delegate Name="Model.RectagleTransform">
+    <Position X="17.75" Y="9.25" Width="1.75" />
+    <TypeIdentifier />
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
