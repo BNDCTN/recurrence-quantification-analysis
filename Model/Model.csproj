@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{58E9D232-0FF8-44AD-B7BD-5F0DCE7C3DEE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Nevron.Nov.Barcode, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Barcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Chart, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Diagram, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Diagram.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Grid, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Grid.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Host.WinBase, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Host.WinBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Host.WinForm, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Host.WinForm.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Host.Wpf, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Host.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Presentation, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Schedule, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Text, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.WinFormControls, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.WinFormControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.WpfControls, Version=17.5.29.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.WpfControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audio.cs" />
+    <Compile Include="Extentions\ChartExtention.cs" />
+    <Compile Include="CutSquare.cs" />
+    <Compile Include="DiagramManager.cs" />
+    <Compile Include="Events\EventCutFace.cs" />
+    <Compile Include="Extentions\ImageExtention.cs" />
+    <Compile Include="MenuRenderer.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Events\RectTransformEvent.cs" />
+    <Compile Include="TimeRow.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
